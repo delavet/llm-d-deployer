@@ -4,7 +4,7 @@ sampleApplication:
     modelArtifactURI: pvc://llm-models/DeepSeek-R1-1.5B
     modelName: "deepseek-r1"
 redis:
-  enabled: false
+  enabled: true
 modelservice:
   epp:
     defaultEnvVarsOverride:
