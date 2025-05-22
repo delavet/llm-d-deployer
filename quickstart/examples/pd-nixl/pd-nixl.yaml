@@ -1,8 +1,8 @@
 sampleApplication:
-  baseConfigMapRefName: basic-gpu-with-nixl-preset
+  baseConfigMapRefName: basic-gpu-with-nixl-and-redis-lookup-preset
   model:
-    modelArtifactURI: hf://meta-llama/Llama-3.2-3B-Instruct
-    modelName: "meta-llama/Llama-3.2-3B-Instruct"
+    modelArtifactURI: pvc://llm-models/DeepSeek-R1-1.5B
+    modelName: "deepseek-r1"
 redis:
   enabled: false
 modelservice:
